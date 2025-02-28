@@ -49,3 +49,11 @@ Create a new file or edit your files and then stage and commit your changes:
 git add .
 git commit -m "Add: brief description of changes"
 ```
+
+### 5.3 Pushing Your Branch to GitHub
+
+Push your new branch to the remote repository:
+
+```sh
+git push origin feature/your-feature-name
+```
