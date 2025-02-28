@@ -64,3 +64,18 @@ git push origin feature/your-feature-name
 2. Open PR: Click the "Compare & pull request" button next to your newly pushed branch.
 3. Fill Details: Provide a clear title and description, and link any related issues.
 4. Submit: Click "Create pull request" to submit. Explanation: These steps allow your team to review the proposed changes.
+
+### 5.5 Addressing Feedback and Merging
+
+- Respond to Feedback: Make any changes requested by reviewers locally, then commit and push the updates.
+- Merge the PR:
+
+  - On GitHub: Click the "Merge pull request" button once the PR is approved.
+  - Via Command Line :
+
+    ```sh
+    git checkout main
+    git pull origin main
+    git merge feature/your-feature-name
+    git push origin main
+    ```
