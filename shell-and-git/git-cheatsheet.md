@@ -30,3 +30,13 @@
   git init
   git remote add origin <REPOSITORY_URL>
   ```
+
+## 5. Git branches and PR
+
+### 5.1 Creating a New Branch
+
+Create a dedicated branch for your work (feature or bug fix):
+
+```sh
+git switch -c feature/your-feature-name
+```
