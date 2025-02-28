@@ -40,3 +40,12 @@ Create a dedicated branch for your work (feature or bug fix):
 ```sh
 git switch -c feature/your-feature-name
 ```
+
+### 5.2 Making Changes and Committing
+
+Create a new file or edit your files and then stage and commit your changes:
+
+```sh
+git add .
+git commit -m "Add: brief description of changes"
+```
