@@ -57,3 +57,10 @@ Push your new branch to the remote repository:
 ```sh
 git push origin feature/your-feature-name
 ```
+
+### 5.4 Creating a Pull Request (PR)
+
+1. Navigate to GitHub: Open your repository in a web browser.
+2. Open PR: Click the "Compare & pull request" button next to your newly pushed branch.
+3. Fill Details: Provide a clear title and description, and link any related issues.
+4. Submit: Click "Create pull request" to submit. Explanation: These steps allow your team to review the proposed changes.
